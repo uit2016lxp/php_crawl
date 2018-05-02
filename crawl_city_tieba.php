@@ -63,7 +63,7 @@ class MyCrawler extends PHPCrawler
     {
         $servername = 'localhost';
         $username = 'root';
-        $password = 'LxpMysql.12';
+        $password = 'root';
         try{
             $conn = new PDO("mysql:host=$servername;dbname=tieba", $username, $password,array(PDO::MYSQL_ATTR_INIT_COMMAND => "set names utf8"));
             $conn->setAttribute(PDO::ATTR_ERRMODE,pdo::ERRMODE_EXCEPTION);

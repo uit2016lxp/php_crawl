@@ -8,10 +8,8 @@ function regular_mate_data($content, $pant)
     return $maches;
 }
 
-//$student_id='201612086';
-//$password='q18733313554';
-$student_id='201612106';
-$password='960016';
+$student_id='你的学号';
+$password='你的密码';
 $city_anlog=new city_analog_landing();
 $city_anlog->getcookie();//获得cookie
 $city_anlog->getverify();//获得验证码

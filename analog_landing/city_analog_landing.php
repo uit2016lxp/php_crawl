@@ -1,5 +1,5 @@
 <?php
-require 'verify\phpVerify\verify.php';
+require 'verify\phpVerify\verify.php';//调用百度OCR接口
 
 class city_analog_landing
 {

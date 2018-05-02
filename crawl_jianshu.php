@@ -129,7 +129,7 @@ class crawl_jianshu
     function save_to_mysql($user_article){//将匹配到的数据保存到数据库中
         $servername = 'localhost';
         $username = 'root';
-        $password = 'LxpMysql.12';
+        $password = 'root';
         try {
             $conn = new PDO("mysql:host=$servername;dbname=jianshu", $username, $password, array(PDO::MYSQL_ATTR_INIT_COMMAND => "set names utf8"));
             $conn->setAttribute(PDO::ATTR_ERRMODE, pdo::ERRMODE_EXCEPTION);

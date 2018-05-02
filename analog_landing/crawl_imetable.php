@@ -36,5 +36,6 @@ foreach ($curriculum as $k=>$v) {
 if(!empty($user))
   print_r($user);//输出课程
 else
-    echo "请求失败!";
+    echo "请求失败!";//请求失败代表模拟登陆失败
 ?>
+
